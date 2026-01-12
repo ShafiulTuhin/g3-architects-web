@@ -92,6 +92,16 @@
   .featureDetails {
     max-width: 100%;
   }
+  .experience {
+    padding: 15px 0px;
+    width: 50%;
+  }
+  .experience h1 {
+    font-size: 2rem;
+  }
+  .experience p {
+    font-size: 1rem;
+  }
   .factPara {
     width: 100%;
   }
