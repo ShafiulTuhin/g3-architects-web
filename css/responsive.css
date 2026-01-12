@@ -90,4 +90,10 @@
   .sponsorTitle {
     width: 100%;
   }
+  footer .container {
+    padding: 0;
+  }
+  .myFooter {
+    padding: 30px 10px;
+  }
 }
