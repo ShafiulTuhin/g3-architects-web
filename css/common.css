@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --button_color: #ff900e;
+  --heading_text_color: #131313;
+  --paragraph_text_color: #727272;
+  --navbar_number_text_color: #424242;
+  --heading_text_size: 45px;
+  --paragraph_text-size: 16px;
+  --heading_font_weight: 700;
+  --number_font-weight: 600;
+}
 * {
   margin: 0;
   padding: 0;
@@ -23,9 +33,18 @@ img {
   vertical-align: middle;
 }
 .container {
-  width: 1360px;
+  width: 1440px;
   margin: 0 auto;
 }
 img {
   cursor: pointer;
+}
+h2 {
+  font-size: var(--heading_text_size);
+  font-weight: var(--heading_font_weight);
+  color: var(--heading_text_color);
+}
+p {
+  font-size: var(--paragraph_text-size);
+  color: var(--paragraph_text_color);
 }

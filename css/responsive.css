@@ -1,0 +1,29 @@
+@import url("./common.css");
+/* =====Extra small devices===== */
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .brand {
+    font-weight: var(--heading_font_weight);
+    color: var(--heading_text_color);
+    font-size: 35px;
+  }
+  .bannerTitle {
+    width: 90%;
+    padding: 60px 0;
+  }
+  .bannerTitle h1 {
+    font-size: 44px;
+  }
+  #bannerPart img {
+    width: 100%;
+  }
+}

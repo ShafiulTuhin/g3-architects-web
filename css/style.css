@@ -1,1 +1,59 @@
 @import url("./common.css");
+/* :root {
+  --button_color: #ff900e;
+  --heading_text_color: #131313;
+  --paragraph_text_color: #727272;
+  --navbar_number_text_color: #424242;
+  --heading_text_size: 45px;
+  --paragraph_text-size: 16px;
+  --heading_font_weight: 700;
+  --number_font-weight: 600;
+} */
+/* ======Navbar CSS===== */
+header {
+  background-color: #fff4e7;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.brand {
+  font-weight: var(--heading_font_weight);
+  color: var(--heading_text_color);
+  font-size: var(--heading_text_size);
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+ul li a {
+  color: var(--navbar_number_text_color);
+  font-size: 18px;
+  font-weight: 500;
+}
+/* ======Banner part CSS====== */
+#bannerPart {
+  background-color: #fff4e7;
+}
+.bannerTitle {
+  padding: 102px 0 147px 0;
+  width: 862px;
+  margin: 0 auto;
+  text-align: center;
+}
+.bannerTitle h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+  color: var(--heading_text_color);
+}
+#bannerPart img {
+  margin-bottom: 45px;
+}
+
+.hide {
+  display: none !important;
+}
