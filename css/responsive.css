@@ -6,7 +6,8 @@
     padding: 2rem 1rem 0 1rem;
   }
   /* Navbar & banner */
-  nav {
+  nav,
+  .featureWrapper {
     flex-direction: column;
     gap: 1.5rem;
   }
@@ -17,9 +18,13 @@
   .bannerTitle h1 {
     font-size: 2.5rem;
   }
-  #bannerPart img {
+  #bannerPart img,
+  .featureImage img {
     width: 100%;
   }
+  /* .featureImage img {
+    max-width: 100%;
+  } */
   #sponsor,
   #featureLove {
     padding-bottom: 60px;
@@ -83,6 +88,9 @@
   .img-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 0.5rem;
+  }
+  .featureDetails {
+    max-width: 100%;
   }
   .factPara {
     width: 100%;
