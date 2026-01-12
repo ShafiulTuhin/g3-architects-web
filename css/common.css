@@ -4,8 +4,8 @@
   --heading_text_color: #131313;
   --paragraph_text_color: #727272;
   --navbar_number_text_color: #424242;
-  --heading_text_size: 45px;
-  --paragraph_text-size: 16px;
+  --heading_text_size: 2.8rem;
+  --paragraph_text-size: 1rem;
   --heading_font_weight: 700;
   --number_font-weight: 600;
 }
@@ -33,7 +33,7 @@ img {
   vertical-align: middle;
 }
 .container {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 img {
@@ -47,4 +47,20 @@ h2 {
 p {
   font-size: var(--paragraph_text-size);
   color: var(--paragraph_text_color);
+  line-height: 26px;
+}
+button {
+  margin-top: 32px;
+  padding: 21px 20px 24px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--button_color);
+  font-size: 1.25rem;
+  color: #ffffff;
+  transition: all linear 0.4s;
+}
+button:hover {
+  background-color: transparent;
+  border: 1px solid var(--button_color);
+  color: var(--button_color);
 }

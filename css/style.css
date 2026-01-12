@@ -17,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 3rem;
 }
 .brand {
   font-weight: var(--heading_font_weight);
@@ -32,7 +32,7 @@ ul {
 }
 ul li a {
   color: var(--navbar_number_text_color);
-  font-size: 18px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 /* ======Banner part CSS====== */
@@ -40,20 +40,37 @@ ul li a {
   background-color: #fff4e7;
 }
 .bannerTitle {
-  padding: 102px 0 147px 0;
+  padding: 102px 0 60px 0;
   width: 862px;
   margin: 0 auto;
   text-align: center;
 }
 .bannerTitle h1 {
-  font-size: 64px;
+  font-size: 4rem;
   margin-bottom: 20px;
   color: var(--heading_text_color);
 }
 #bannerPart img {
   margin-bottom: 45px;
 }
+/*======Feature part CSS====== */
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 5.25rem;
+  padding-bottom: 8rem;
+}
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
 
+.features {
+  max-width: 537px;
+}
 .hide {
   display: none !important;
 }

@@ -1,29 +1,70 @@
 @import url("./common.css");
-/* =====Extra small devices===== */
-@media (max-width: 576px) {
+/* ====Small devices===== */
+@media (max-width: 768px) {
   .container {
     width: 100%;
-    padding: 0 15px;
+    padding: 2rem 1rem 0 1rem;
   }
+  /* Navbar & banner */
   nav {
     flex-direction: column;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding-top: 30px;
-  }
-  .brand {
-    font-weight: var(--heading_font_weight);
-    color: var(--heading_text_color);
-    font-size: 35px;
+    gap: 1.5rem;
   }
   .bannerTitle {
     width: 90%;
-    padding: 60px 0;
+    padding-top: 1.75rem;
   }
   .bannerTitle h1 {
-    font-size: 44px;
+    font-size: 2.5rem;
   }
   #bannerPart img {
+    width: 100%;
+  }
+  /* Team */
+  .teams {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+  }
+  .img-container {
+    gap: 0.5rem;
+  }
+  .img-container img {
+    width: 100%;
+  }
+  .features {
+    padding-left: 20px;
+  }
+}
+
+/* =====Extra small devices===== */
+@media (max-width: 576px) {
+  .brand {
+    font-weight: var(--heading_font_weight);
+    color: var(--heading_text_color);
+    font-size: 2.25rem;
+  }
+  ul {
+    gap: 1.75rem;
+  }
+
+  .bannerTitle h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    padding: 12px 15px;
+  }
+  .teams {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .img-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+  }
+  .features {
     width: 100%;
   }
 }
