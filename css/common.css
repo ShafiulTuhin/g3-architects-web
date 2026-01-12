@@ -43,6 +43,7 @@ h2 {
   font-size: var(--heading_text_size);
   font-weight: var(--heading_font_weight);
   color: var(--heading_text_color);
+  margin-bottom: 1.5rem;
 }
 p {
   font-size: var(--paragraph_text-size);

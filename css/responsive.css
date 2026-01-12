@@ -20,10 +20,19 @@
   #bannerPart img {
     width: 100%;
   }
+  #sponsor,
+  #featureLove {
+    padding-bottom: 60px;
+  }
+  .sponsorLogo {
+    flex-direction: column;
+    gap: 30px;
+  }
+
   /* Team */
   .teams {
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
     padding-top: 2.5rem;
     padding-bottom: 3.5rem;
   }
@@ -35,6 +44,17 @@
   }
   .features {
     padding-left: 20px;
+  }
+  /* Some facts */
+  #factsPart {
+    padding-bottom: 60px;
+  }
+  .factDetails {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .factPara {
+    margin-bottom: 30px;
   }
 }
 
@@ -64,7 +84,10 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 0.5rem;
   }
-  .features {
+  .factPara {
+    width: 100%;
+  }
+  .sponsorTitle {
     width: 100%;
   }
 }

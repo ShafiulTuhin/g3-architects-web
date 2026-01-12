@@ -71,6 +71,57 @@ ul li a {
 .features {
   max-width: 537px;
 }
-.hide {
-  display: none !important;
+/* ======Feature love part css */
+#featureLove {
+  padding-bottom: 130px;
+}
+/* ======Soem facts part css */
+#factsPart {
+  padding-bottom: 180px;
+}
+.factPara {
+  margin-bottom: 100px;
+  width: 542px;
+}
+.factDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.factItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #ff900e;
+  padding: 45px 36px 59px 36px;
+}
+.factItems img {
+  width: 45px;
+  height: 45px;
+}
+.factItems h2 {
+  margin-bottom: 0;
+}
+/* ======Sponsor part css */
+#sponsor {
+  padding-bottom: 130px;
+}
+.sponsorTitle {
+  width: 542px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sponsorLogo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* =====Footer part css===== */
+.myFooter {
+  padding: 40px 0;
+  background-color: #fff4e7;
+  text-align: center;
 }
