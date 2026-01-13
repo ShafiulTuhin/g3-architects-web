@@ -1,14 +1,5 @@
 @import url("./common.css");
-/* :root {
-  --button_color: #ff900e;
-  --heading_text_color: #131313;
-  --paragraph_text_color: #727272;
-  --navbar_number_text_color: #424242;
-  --heading_text_size: 45px;
-  --paragraph_text-size: 16px;
-  --heading_font_weight: 700;
-  --number_font-weight: 600;
-} */
+
 /* ======Navbar CSS===== */
 header {
   background-color: #fff4e7;
@@ -28,7 +19,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 3.125rem;
 }
 ul li a {
   color: var(--navbar_number_text_color);
@@ -40,25 +31,25 @@ ul li a {
   background-color: #fff4e7;
 }
 .bannerTitle {
-  padding: 102px 0 60px 0;
+  padding: 6.375rem 0 3.75rem 0;
   width: 862px;
   margin: 0 auto;
   text-align: center;
 }
 .bannerTitle h1 {
   font-size: 4rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   color: var(--heading_text_color);
 }
 #bannerPart img {
-  margin-bottom: 45px;
+  margin-bottom: 2.8125rem;
 }
 /*======Feature part CSS====== */
 .teams {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 10px;
+  gap: 0.625rem;
   padding-top: 5.25rem;
   padding-bottom: 8rem;
 }
@@ -73,7 +64,7 @@ ul li a {
 }
 /* ======Feature love part css */
 #featureLove {
-  padding-bottom: 130px;
+  padding-bottom: 8.125rem;
 }
 .featureWrapper {
   display: flex;
@@ -99,9 +90,9 @@ ul li a {
   margin-left: 0;
 }
 .loveItems {
-  margin-top: 30px;
-  padding: 30px;
-  box-shadow: 1px 5px 1px #f7eaea;
+  margin-top: 1.875rem;
+  padding: 1.875rem;
+  box-shadow: 0 1.875rem 2.5rem rgb(249, 245, 245);
 }
 .featureImage {
   position: relative;
@@ -110,7 +101,7 @@ ul li a {
   max-width: 800px;
 }
 .experience {
-  padding: 45px 42px;
+  padding: 2.8125rem 2.625rem;
   background-color: #ff900e;
   width: 342px;
   text-align: center;
@@ -128,12 +119,12 @@ ul li a {
   font-weight: 500;
   color: #ffffff;
 }
-/* ======Soem facts part css */
+/* ======Some facts part css */
 #factsPart {
-  padding-bottom: 180px;
+  padding-bottom: 11.25rem;
 }
 .factPara {
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
   width: 542px;
 }
 .factDetails {
@@ -146,21 +137,21 @@ ul li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 0.625rem;
   border: 1px solid #ff900e;
-  padding: 45px 36px 59px 36px;
+  padding: 2.8125rem 2.25rem 3.6875rem 2.25rem;
   width: 241.83px;
 }
 .factItems img {
-  width: 45px;
-  height: 45px;
+  width: 2.8125rem;
+  height: 2.8125rem;
 }
 .factItems h2 {
   margin-bottom: 0;
 }
 /* ======Sponsor part css */
 #sponsor {
-  padding-bottom: 130px;
+  padding-bottom: 8.125rem;
 }
 .sponsorTitle {
   width: 542px;
@@ -168,14 +159,17 @@ ul li a {
   text-align: center;
 }
 .sponsorLogo {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.sponsorLogo img {
+  filter: grayscale(100%);
+}
 /* =====Footer part css===== */
 .myFooter {
-  padding: 40px 0;
+  padding: 2.5rem 0;
   background-color: #fff4e7;
   text-align: center;
 }
